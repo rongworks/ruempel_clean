@@ -1,0 +1,10 @@
+flask-appconfig
+click
+itsdangerous
+Jinja2
+MarkupSafe
+Werkzeug
+flask_bootstrap
+flask-nav
+flask-debug
+flask-wtf
