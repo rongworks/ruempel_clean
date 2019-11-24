@@ -1,2 +1,2 @@
 # ruempel_clean
-Brochure
+Landing Page
