@@ -5,9 +5,6 @@ app = Flask(__name__)
 Bootstrap(app)
 
 @app.route('/')
-def hello_world():
-    return app.send_static_file('startbootstrap_landingpage/index.html')
+def base():
+    return render_template('base.html', title='Home')
 
-
-if __name__ == '__main__':
-    app.run()
