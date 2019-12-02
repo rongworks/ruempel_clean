@@ -4,7 +4,7 @@ itsdangerous
 Jinja2
 MarkupSafe
 Werkzeug
-flask_bootstrap
-flask-nav
+flask-bootstrap
+Latest version 
 flask-debug
 flask-wtf

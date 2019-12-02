@@ -1,11 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-    <br><br>
-<h1>RÜMPEL CLEAN</h1>
-</body>
-</html>     
+{% extends "bootstrap/base.html" %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+{% block title %}This is an example page{% endblock %}
+
+{% block navbar %}
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <a class="navbar-brand" href="#">
+    <img src="../static/ruempel_clean/logo_blue.svg" width="300px" height="170px" alt="">
+  </a>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav ml-auto my-2 my-lg-0">
+      <li class="nav-item active ml-sm-2">
+        <a class="nav-link" href="#">Haushaltsauflösung <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item ml-sm-2">
+        <a class="nav-link" href="#">Entrümpelung</a>
+      </li>
+      <li class="nav-item ml-sm-2">
+        <a class="nav-link" href="#">Kontakt</a>
+      </li>
+    </ul>
+  </div>
+
+</nav>
+{% endblock %}
+
+{% block content %}
+  <h1>Ruempel Clean</h1>
+{% endblock %}
