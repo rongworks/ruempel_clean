@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 204.19949 117.34258"
+   height="117.34258mm"
+   width="204.19949mm">
+  <defs
+     id="defs2">
+    <linearGradient
+       osb:paint="gradient"
+       id="linearGradient5998">
+      <stop
+         id="stop5994"
+         offset="0"
+         style="stop-color:#808080;stop-opacity:1;" />
+      <stop
+         id="stop5996"
+         offset="1"
+         style="stop-color:#808080;stop-opacity:0;" />
+    </linearGradient>
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-3.5254937,-91.816278)"
+     id="layer1">
+    <g
+       transform="matrix(0.26458333,0,0,0.26458333,-3.730992,64.993775)"
+       id="g4558">
+      <g
+         id="Layer1000">
+        <path
+           d="m 175.67979,178.62499 -0.0637,-24.8254 -39.5328,-0.4197 -0.5577,60.5466 -80.973801,65.51831 c -5.0254,4.0918 -8.735,7.5338 -13.526101,11.3991 l -9.442,8.4044 c -3.0407,3.2495 -1.5211,1.1863 -4.1576,4.9419 l 81.079202,0.649 c 2.7795,48.2508 0.9824,113.5737 1.2096,165.1971 L 799.2037,469.9535 C 779.8772,459.9742 242.48479,457.6384 135.51209,456.702 l -8.8001,-0.1776 -1.1459,-164.1679 -59.369601,-0.4962 c 3.2793,-5.6723 76.162901,-65.5416 81.938501,-68.44711 l 0.3334,-52.1118 14.4681,-0.4948 0.194,37.4186 c 9.6154,-4.3912 18.4389,-13.6209 27.084,-20.4193 10.1987,-8.0201 17.2894,-15.0995 27.2113,-22.6985 8.2799,-6.3419 48.6854,-39.072 51.9894,-44.4626 23.3807,10.6361 74.3303,52.8578 86.8733,56.1045 -6.1133,-2.7809 -72.9622,-70.4353 -85.9107,-75.3729 z"
+           style="fill:#009cff;fill-opacity:1;fill-rule:evenodd"
+           id="path4518" />
+        <path
+           d="m 221.00799,487.492 c -30.3101,13.9324 -9.6728,49.6296 18.0128,39.1407 27.595,-10.4549 9.8937,-51.9674 -18.0128,-39.1407 z"
+           style="fill:#ffffff;fill-rule:evenodd"
+           id="path4526" />
+        <ellipse
+           ry="35.617561"
+           rx="35.64283"
+           cy="509.25836"
+           cx="230.58421"
+           id="path6032"
+           style="fill:#2b7c18;fill-opacity:0.98431373;stroke-width:0.93960291" />
+        <ellipse
+           ry="35.617561"
+           rx="35.64283"
+           cy="508.63879"
+           cx="611.53119"
+           id="path6032-4"
+           style="fill:#2b7c18;fill-opacity:0.98431373;stroke-width:0.93960291" />
+        <ellipse
+           ry="24.787716"
+           rx="25.229513"
+           cy="508.63879"
+           cx="612.36426"
+           id="path6032-7-9"
+           style="fill:#ffffff;fill-opacity:1;stroke-width:0.6594758" />
+        <ellipse
+           ry="24.787716"
+           rx="25.229513"
+           cy="508.63879"
+           cx="230.82042"
+           id="path6032-7-9-5"
+           style="fill:#ffffff;fill-opacity:1;stroke-width:0.6594758" />
+        <path
+           id="path6147"
+           d="m 630.6825,537.31664 42.76359,-19.55405 -30.46949,6.58216 -7.25596,8.82466 z"
+           style="fill:#009035;fill-opacity:1;stroke:none;stroke-width:1.34336555px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           id="path6149"
+           d="m 642.9766,524.34475 42.9903,-21.79516 -38.70822,10.70599 z"
+           style="opacity:1;fill:#009035;fill-opacity:1;stroke:none;stroke-width:1.44325042px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           id="path6149-8"
+           d="m 261.3675,527.0542 42.9903,-21.79516 -38.70822,10.70599 z"
+           style="opacity:1;fill:#009035;fill-opacity:1;stroke:none;stroke-width:1.44325042px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           id="path6147-9"
+           d="m 249.0734,540.02609 42.76359,-19.55405 -30.46949,6.58216 -7.25596,8.82466 z"
+           style="fill:#009035;fill-opacity:1;stroke:none;stroke-width:1.34336555px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <ellipse
+           ry="14.020311"
+           rx="13.275869"
+           cy="505.2356"
+           cx="224.52811"
+           id="path6242"
+           style="opacity:1;fill:#009035;fill-opacity:1;stroke:none;stroke-width:0.06668826" />
+        <ellipse
+           ry="14.020311"
+           rx="13.275869"
+           cy="504.01556"
+           cx="606.59827"
+           id="path6242-5"
+           style="opacity:1;fill:#009035;fill-opacity:1;stroke:none;stroke-width:0.06668826" />
+        <text
+           x="171.92506"
+           y="319.51477"
+           id="text4533"
+           style="fill:#2b7c18;fill-opacity:0.98431373">
+          <tspan
+             font-size="82.5000"
+             id="tspan4529"
+             style="font-size:82.5px;font-family:'Raleway Medium';fill:#2b7c18;fill-opacity:0.98431373">Rümpel Clean</tspan>
+          <tspan
+             font-size="82.5000"
+             id="tspan4531"
+             style="font-size:82.5px;font-family:'Raleway Medium';fill:#2b7c18;fill-opacity:0.98431373" />
+        </text>
+        <text
+           style="fill:#009cff;fill-opacity:1"
+           x="235.96362"
+           y="392.95883"
+           id="text4537">
+          <tspan
+             font-size="40.0000"
+             id="tspan4535"
+             style="font-size:40px;font-family:'Raleway Medium';fill:#009cff;fill-opacity:1">Haushaltsauflösungen</tspan>
+        </text>
+        <ellipse
+           ry="14.020311"
+           rx="13.275869"
+           cy="506.35229"
+           cx="229.61514"
+           id="path6242-6-5"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.06668826" />
+        <ellipse
+           ry="14.020311"
+           rx="13.275869"
+           cy="506.12115"
+           cx="612.21326"
+           id="path6242-6-5-4-7"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.06668826" />
+      </g>
+    </g>
+  </g>
+</svg>
