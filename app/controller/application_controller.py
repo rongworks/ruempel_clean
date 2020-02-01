@@ -6,14 +6,15 @@ class ApplicationController:
     def __init__(self, request):
         self.params = request.args
         self.pages_set = ['test']
+        self.layout = "base"
 
     def home(self):
-        return render_template('base.html', title='Home')
+        return render_template('pages/home.html', title='Home', layout=self.layout)
 
     def pages(self):
         page_slug = self.params['slug']
         if self.__is_valid_page(page_slug) :
-            return render_template('pages/' + page_slug + '.html')
+            return render_template('pages/' + page_slug + '.html', layout=self.layout)
         else:
             return self.not_found()
 
