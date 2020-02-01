@@ -8,3 +8,6 @@ flask_bootstrap
 flask-nav
 flask-debug
 flask-wtf
+pytest
+pytest-flask
+splinter[flask]
