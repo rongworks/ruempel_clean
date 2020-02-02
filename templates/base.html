@@ -37,117 +37,14 @@
 <body>
 
 <div class="container-fluid">
-<!-- Navigation -->
-<nav class="">
-    <div class="row text-center">
-        <div class="col">
-            <a class="navbar-brand" href="#"><img src="/static/ruempel_clean/placeholder_logo.jpg"></a>
-
-        </div>
-        <div class="col align-self-center">
-            <h1>RÜMPEL CLEAN</h1>
-            {{ error }}
-        </div>
-        <div class="col lead align-self-center">
-            <h1 class="text-primary">
-                <i class="icon-phone mr-2 "></i>
-                0177-9899100
-            </h1>
-
-        </div>
-    </div>
-</nav>
+    {% include "partials/header.html" %}
 
 
-<!-- Icons Grid -->
-<section class="features-icons bg-light text-center">
-    <div class="">
-        <div class="row mx-0">
-            <div class="col-lg-4">
-                <a class="hotlink" href="/#entruempelung">
-                <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                    <div class="features-icons-icon d-flex">
-                        <i class="icon-trash m-auto text-primary"></i>
-                    </div>
-                    <h3>Entrümpelung</h3>
-                    <p class="lead mb-0">Was ist das überhaupt?</p>
-                </div>
-                </a>
-            </div>
-            <div class="col-lg-4">
-                <a class="hotlink" href="/#haushaltsaufloesung">
-                <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                    <div class="features-icons-icon d-flex">
-                        <i class="icon-home m-auto text-primary"></i>
-                    </div>
-                    <h3>Haushaltsauflösung</h3>
-                    <p class="lead mb-0">Haushaltsauflösung, trallala</p>
-                </div>
-                </a>
-            </div>
-            <div class="col-lg-4">
-                <a class="hotlink" href="/#betriebsaufloesung">
-                <div class="features-icons-item mx-auto mb-0 mb-lg-3">
-                    <div class="features-icons-icon d-flex">
-                        <i class="icon-briefcase m-auto text-primary"></i>
-                    </div>
-                    <h3>Betriebsauflösung</h3>
-                    <p class="lead mb-0">Sprengung und Plünderung inklusive</p>
-                </div>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
+    {% include "partials/navigation.html" %}
 
-{% block content %}{% endblock %}
+    {% block content %}{% endblock %}
 
-<!-- Footer -->
-<footer class="footer bg-light">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-                <ul class="list-inline mb-2">
-                    <li class="list-inline-item">
-                        <a href="#">About</a>
-                    </li>
-                    <li class="list-inline-item">&sdot;</li>
-                    <li class="list-inline-item">
-                        <a href="#">Contact</a>
-                    </li>
-                    <li class="list-inline-item">&sdot;</li>
-                    <li class="list-inline-item">
-                        <a href="#">Terms of Use</a>
-                    </li>
-                    <li class="list-inline-item">&sdot;</li>
-                    <li class="list-inline-item">
-                        <a href="#">Privacy Policy</a>
-                    </li>
-                </ul>
-                <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2019. All Rights Reserved.</p>
-            </div>
-            <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
-                <ul class="list-inline mb-0">
-                    <li class="list-inline-item mr-3">
-                        <a href="#">
-                            <i class="icon-facebook fa-2x fa-fw"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item mr-3">
-                        <a href="#">
-                            <i class="icon-twitter fa-2x fa-fw"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#">
-                            <i class="icon-instagram fa-2x fa-fw"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</footer>
+    {% include "partials/footer.html" %}
 </div>
 </body>
 

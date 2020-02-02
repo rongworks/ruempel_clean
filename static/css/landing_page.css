@@ -18,6 +18,10 @@ h6 {
   font-weight: 700;
 }
 
+.logo{
+  height: 100px;
+  overflow: hidden;
+}
 .showcase .showcase-text {
   padding: 3rem;
 }
@@ -40,8 +44,8 @@ h6 {
 }
 
 .features-icons {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .features-icons .features-icons-item {
@@ -49,7 +53,7 @@ h6 {
 }
 
 .features-icons .features-icons-item .features-icons-icon {
-  height: 7rem;
+  height: 5rem;
 }
 
 .features-icons .features-icons-item .features-icons-icon i {
