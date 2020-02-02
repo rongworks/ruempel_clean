@@ -1,13 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>{{ title }}</title>
-</head>
-<body>
-        <img src="/static/ruempel_clean/placeholder_logo.jpg">
 
-    <h1>{{ error }}</h1>
-    {% block content %}{% endblock %}
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>{{ title }}</title>
+
+    <!-- Bootstrap core CSS  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
+          type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="static/css/landing_page.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container-fluid">
+<!-- Navigation -->
+<nav class="">
+    <div class="row text-center">
+        <div class="col">
+            <a class="navbar-brand" href="#"><img src="/static/ruempel_clean/placeholder_logo.jpg"></a>
+
+        </div>
+        <div class="col align-self-center">
+            <h1>RÜMPEL CLEAN</h1>
+            {{ error }}
+        </div>
+        <div class="col lead align-self-center">
+            <h1 class="text-primary">
+                <i class="icon-phone mr-2 "></i>
+                0177-9899100
+            </h1>
+
+        </div>
+    </div>
+</nav>
+
+
+<!-- Icons Grid -->
+<section class="features-icons bg-light text-center">
+    <div class="">
+        <div class="row mx-0">
+            <div class="col-lg-4">
+                <a class="hotlink" href="/#entruempelung">
+                <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                    <div class="features-icons-icon d-flex">
+                        <i class="icon-trash m-auto text-primary"></i>
+                    </div>
+                    <h3>Entrümpelung</h3>
+                    <p class="lead mb-0">Was ist das überhaupt?</p>
+                </div>
+                </a>
+            </div>
+            <div class="col-lg-4">
+                <a class="hotlink" href="/#haushaltsaufloesung">
+                <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                    <div class="features-icons-icon d-flex">
+                        <i class="icon-home m-auto text-primary"></i>
+                    </div>
+                    <h3>Haushaltsauflösung</h3>
+                    <p class="lead mb-0">Haushaltsauflösung, trallala</p>
+                </div>
+                </a>
+            </div>
+            <div class="col-lg-4">
+                <a class="hotlink" href="/#betriebsaufloesung">
+                <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+                    <div class="features-icons-icon d-flex">
+                        <i class="icon-briefcase m-auto text-primary"></i>
+                    </div>
+                    <h3>Betriebsauflösung</h3>
+                    <p class="lead mb-0">Sprengung und Plünderung inklusive</p>
+                </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% block content %}{% endblock %}
+
+<!-- Footer -->
+<footer class="footer bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+                <ul class="list-inline mb-2">
+                    <li class="list-inline-item">
+                        <a href="#">About</a>
+                    </li>
+                    <li class="list-inline-item">&sdot;</li>
+                    <li class="list-inline-item">
+                        <a href="#">Contact</a>
+                    </li>
+                    <li class="list-inline-item">&sdot;</li>
+                    <li class="list-inline-item">
+                        <a href="#">Terms of Use</a>
+                    </li>
+                    <li class="list-inline-item">&sdot;</li>
+                    <li class="list-inline-item">
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                </ul>
+                <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2019. All Rights Reserved.</p>
+            </div>
+            <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item mr-3">
+                        <a href="#">
+                            <i class="icon-facebook fa-2x fa-fw"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item mr-3">
+                        <a href="#">
+                            <i class="icon-twitter fa-2x fa-fw"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">
+                            <i class="icon-instagram fa-2x fa-fw"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
 </body>
-</html>     
+
+</html>
