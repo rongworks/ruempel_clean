@@ -1,0 +1,22 @@
+class ContactRequest:
+
+    def __init__(self, email=None, subject='Request', text=''):
+        self.email = email
+        self.subject = subject
+        self.text = text
+
+    def from_params(self, params):
+        self.email = params['email']
+        self.subject = params['subject']
+        self.text = params['text']
+
+        return self
+
+    def is_valid(self):
+        if self.email is None:
+            return False
+        return True
+
+    def send(self):
+        #TODO: send it..
+        return self.is_valid()
