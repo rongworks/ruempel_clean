@@ -14,7 +14,7 @@ def test_contact(flask_app):
     browser.quit()
 
 def goto_contact_page(browser):
-    expected_text = 'E-Mail'
+    expected_text = 'Email Adresse'
 
     contact_page = '/pages?slug=contact'
 
@@ -24,6 +24,7 @@ def goto_contact_page(browser):
 
 def send_request(browser):
     confirm_page = '/pages?slug=contact_confirm'
+    #TODO: Seems validation is ignored here..
     browser.find_by_name('send').first.click()
 
-    assert browser.url == confirm_page, f"Current URL {browser.url} did not match page contact_confirm"
+    assert confirm_page == browser.url, f"Current URL {browser.url} did not match page contact_confirm"
