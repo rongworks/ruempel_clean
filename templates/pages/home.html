@@ -1,6 +1,40 @@
 {% extends layout+".html" %}
 
 {% block content %}
-    <h1>RÜMPEL CLEAN</h1>
-    <h2>This is home.. I am ROOT!</h2>
+    <!-- Image Showcases -->
+  <section class="showcase">
+    <div class="container-fluid p-0">
+      <div id="entruempelung" class="row no-gutters">
+
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('static/ruempel_clean/gallery/photo5310037608040082467.jpg');"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2>Entrümpelung</h2>
+          <p class="lead mb-0">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+      </div>
+      <div id="haushaltsaufloesung" class="row no-gutters">
+        <div class="col-lg-6 text-white showcase-img" style="background-image: url('static/ruempel_clean/gallery/photo5310037608040082471.jpg');"></div>
+        <div class="col-lg-6 my-auto showcase-text">
+          <h2>Haushaltsauflösung</h2>
+            <p class="lead mb-0">
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec elit sit amet mi accumsan consectetur. Vivamus convallis tempus augue ut vulputate. Sed porttitor, dolor in accumsan dapibus, sapien orci feugiat erat, a euismod ante metus iaculis nunc. In ligula nisl, laoreet sit amet massa vitae, condimentum rutrum ex. Maecenas ligula felis, imperdiet id dolor tristique, rutrum venenatis quam. Duis congue viverra maximus. Curabitur mattis consequat enim sed sagittis. Curabitur in efficitur nulla, sed viverra odio. Proin in nisi sit amet massa tempor commodo. In ac lacus risus. Vestibulum at pretium justo, quis molestie lorem.
+
+Phasellus justo velit, commodo nec scelerisque rutrum, placerat a dui. Pellentesque libero justo, venenatis vel accumsan vitae, tincidunt vel nunc. Vivamus sagittis semper nulla, in faucibus quam eleifend at. Nulla facilisi. Proin at ipsum imperdiet, lobortis odio sed, convallis nulla. Quisque ac imperdiet mi. Nullam sapien mauris, vestibulum at porta vel, pellentesque ut dolor. Duis porta, lectus a interdum ornare, nulla turpis dictum leo, ac porttitor dolor est nec velit. Aliquam non efficitur orci, vestibulum finibus nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec ipsum orci, consequat vitae ipsum ac, hendrerit luctus tortor. Duis congue pulvinar consequat. Pellentesque eget massa et lectus tristique blandit. Morbi et ipsum nunc. Pellentesque luctus ac magna et vestibulum.
+            </p></div>
+      </div>
+      <div id="betriebsaufloesung" class="row no-gutters">
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('static/ruempel_clean/gallery/photo5310037608040082459.jpg');"></div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+          <h2>Betriebsauflösung</h2>
+          <p class="lead mb-0">
+              Aenean quis consectetur nisi, vel convallis risus. Pellentesque et arcu blandit, sagittis erat a, molestie sapien. Nullam dapibus, nulla non placerat iaculis, ligula elit luctus metus, a feugiat nibh purus ac nibh. In nec semper elit. Sed interdum dolor lorem, laoreet consequat urna tincidunt a. Donec vel diam lacus. Nullam eu dui semper, dapibus neque id, varius neque. Sed feugiat, ipsum a accumsan fermentum, velit nisi hendrerit dolor, et efficitur tellus purus in lectus. Sed lacus lacus, scelerisque nec interdum vitae, blandit in nisi. Nulla facilisi. Nunc lacinia molestie mauris id varius. Aliquam interdum turpis non tincidunt finibus.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{% include "partials/testimonials.html" %}
 {% endblock %}
