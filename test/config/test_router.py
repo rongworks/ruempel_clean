@@ -1,19 +1,23 @@
 def test_home(client):
     response = client.get('/')
-    assert response.status_code == 200
+    assert 200 == response.status_code
 
 def test_test_page(client):
     response = client.get('/pages?slug=test')
-    assert response.status_code == 200
+    assert 200 == response.status_code
 
 def test_pages_without_page(client):
     response = client.get('/pages')
-    assert response.status_code == 400
+    assert 400 == response.status_code
 
 def test_pages_invalid_page(client):
     response = client.get('/pages?slug=nuke_me')
-    assert response.status_code == 404
+    assert 404 == response.status_code
 
 def test_not_found(client):
     response = client.get('/boobytrap')
-    assert response.status_code == 404
+    assert 404 == response.status_code
+
+def test_contact_send(client):
+    response = client.post('/contact_send', data = dict(email="bla", subject="hu", text="tz"))
+    assert 200 == response.status_code
