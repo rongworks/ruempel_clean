@@ -11,3 +11,4 @@ flask-wtf
 pytest
 pytest-flask
 splinter[flask]
+flask-mail

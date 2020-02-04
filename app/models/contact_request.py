@@ -1,9 +1,13 @@
+from app.models.mailer import Mailer
+
 class ContactRequest:
 
     def __init__(self, email=None, subject='Request', text=''):
         self.email = email
         self.subject = subject
         self.text = text
+        self.receiver = "info@rongworks.de"
+
 
     def from_params(self, params):
         self.email = params['email']
@@ -16,7 +20,3 @@ class ContactRequest:
         if self.email is None:
             return False
         return True
-
-    def send(self):
-        #TODO: send it..
-        return self.is_valid()
